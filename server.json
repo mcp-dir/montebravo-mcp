@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/montebravo-mcp",
+  "title": "MCP.AI connector for Monte Bravo (unofficial)",
+  "description": "Unofficial, not affiliated with Monte Bravo. Read-only Open Finance MCP by MCP.AI.",
+  "version": "0.1.2",
+  "repository": {
+    "url": "https://github.com/mcp-dir/montebravo-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_montebravo"
+    }
+  ]
+}
